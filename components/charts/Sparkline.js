@@ -176,13 +176,13 @@ export default {
         }
       }, (() => {
         const items = slots.map(item => {
-          const tag = item.tag
+          const tag = item.tag.toLowerCase()
           const props = Object.assign({}, rootProps, item.data && item.data.attrs || {})
-          if (tag === 'sparklineLine') {
+          if (tag === 'sparklineline') {
             return h(Line, { props })
-          } else if (tag === 'sparklineCurve') {
+          } else if (tag === 'sparklinecurve') {
             return h(Curve, { props })
-          } else if (tag === 'sparklineBar') {
+          } else if (tag === 'sparklinebar') {
             return h(Bar, { props })
           } else {
             return h(Pie, { props })

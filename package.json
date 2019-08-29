@@ -1,6 +1,6 @@
 {
   "name": "vue-sparklines",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Sparkline chart built with Vue, by zhaopin.com CRM FE team.",
   "main": "",
   "keywords": [
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zen33/vue-sparklines.git"
+    "url": "https://github.com/qrotux/vue-sparklines.git"
   },
   "bugs": {
-    "url": "https://github.com/Zen33/vue-sparklines/issues"
+    "url": "https://github.com/qrotux/vue-sparklines/issues"
   },
   "homepage": "http://7te.net",
   "author": "tangzhen@me.com",
